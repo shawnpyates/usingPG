@@ -1,0 +1,25 @@
+{
+  "name": "using_pg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add_person.js",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "knex": "^0.12.9",
+    "pg": "^6.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnpyates/usingPG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawnpyates/usingPG/issues"
+  },
+  "homepage": "https://github.com/shawnpyates/usingPG#readme"
+}

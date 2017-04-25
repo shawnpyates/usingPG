@@ -13,7 +13,7 @@ function getFamousPeople(arg) {
       let birthMonth = results.rows[0].birthdate.getMonth();
       let birthDay = results.rows[0].birthdate.getDate();
       console.log(`Found 1 person(s) by the name ${lastName}`);
-      console.log(` 1: ${firstName} ${lastName}, born ${birthYear}-${birthMonth}-${birthDay}.`);
+      console.log(` 1: ${firstName} ${lastName}, born '${birthYear}-${birthMonth}-${birthDay}'.`);
       client.end();
     });
   });
