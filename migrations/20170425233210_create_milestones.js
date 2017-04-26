@@ -1,6 +1,5 @@
-
 exports.up = function(knex) {
-  knex.schema.createTable('milestones', (table) => {
+  return knex.schema.createTable('milestones', (table) => {
     table.increments();
     table.string('description');
     table.timestamp('date_achieved');
